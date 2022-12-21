@@ -1,9 +1,6 @@
 package Servlet;
 
 import java.io.IOException;
-import java.util.Date;
-import java.text.SimpleDateFormat;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class MktServlet
+ * Servlet implementation class priceServlet
  */
-@WebServlet("/MktServlet")
-public class MktServlet extends HttpServlet {
+@WebServlet("/priceServlet")
+public class priceServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public MktServlet() {
+    public priceServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -30,17 +27,15 @@ public class MktServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		String bi = request.getParameter("bi");
+		String getP = request.getParameter("getP");
+		String price = request.getParameter("price");
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
-		Date now = new Date();
-		String time = sdf.format(now);
-		String timeday= time.substring(0,4)+"Äê"+time.substring(4, 6)+"ÔÂ"+time.substring(6, 8)+"ÈÕ";
-		String timeString = time.substring(8,10)+":"+time.substring(10,12)+":"+time.substring(12,14);
+		request.getSession().setAttribute("bi", bi);
+		request.getSession().setAttribute("getP", getP);
+		request.getSession().setAttribute("price", price);
 		
-		request.getSession().setAttribute("timeday", timeday);
-		request.getSession().setAttribute("timeminutes", timeString);
-		
-		request.getRequestDispatcher("Mkt.jsp").forward(request, response);
+		request.getRequestDispatcher("Purchase.jsp").forward(request, response);
 	}
 
 	/**

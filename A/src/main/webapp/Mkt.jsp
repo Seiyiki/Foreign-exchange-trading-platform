@@ -33,7 +33,7 @@
 				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 					<div class="page-title text-center mb-4">
 						<span>市场</span>
-						<h2 class="theme-title">实时市场价值</h2>
+						<h2 class="theme-title">${timeday}实时市场价值</h2>
 						<p class="theme-description">提供最好的市场价格，所以你拥有最好的选择条件</p>
 					</div>
 				</div>
@@ -55,154 +55,154 @@
 										<th class="text-center" scope="col">时间</th>
 									</tr>
 									<tr>
-										<td class="coin-box quotes"><a href="Live-charts.html"><img
-												src="./img/crypto-exchange1.png" alt="coin">
+										<td class="coin-box quotes"><a href="charts?f=1"><img
+												src="./img/mei.png" alt="coin">
 												<div class="coin-name">
-													EURUSD<span>Euro / U.S. Dollar</span>
+													美元<span>美元/每人民币</span>
 												</div></a></td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td><span class="text-success">+0.00225 </span></td>
-										<td><span class="text-success">+0.02% </span></td>
+										<td>0.1435</td>
+										<td>0.1434</td>
+										<td>0.1432</td>
+										<td>0.1437</td>
+										<td><span class="text-success">+0.0005 </span></td>
+										<td><span class="text-success">+0.3487% </span></td>
 										<td class="text-center"><span class="time-box"><i
-												class="far fa-clock"></i>09:21:48</span></td>
+												class="far fa-clock"></i>${timeminutes}</span></td>
 									</tr>
 									<tr>
-										<td class="coin-box quotes"><a href="Live-charts.html#"><img
-												src="./img/crypto-exchange2.png" alt="coin">
+										<td class="coin-box quotes"><a href="charts?f=2"><img
+												src="./img/ou.png" alt="coin">
 												<div class="coin-name">
-													GBPUSD<span>Euro / U.S. Dollar</span>
+													欧元<span>欧元/每人民币</span>
 												</div></a></td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td><span class="text-danger">-0.00225</span></td>
-										<td><span class="text-danger">-0.02%</span></td>
+										<td>0.1354</td>
+										<td>0.1354</td>
+										<td>0.1354</td>
+										<td>0.1354</td>
+										<td><span class="text-danger">0</span></td>
+										<td><span class="text-danger">0.00%</span></td>
 										<td class="text-center"><span class="time-box"><i
-												class="far fa-clock"></i>09:21:48</span></td>
+												class="far fa-clock"></i>${timeminutes}</span></td>
 									</tr>
 									<tr>
-										<td class="coin-box quotes"><a href="Live-charts.html"><img
-												src="./img/crypto-exchange1.png" alt="coin">
+										<td class="coin-box quotes"><a href="charts?f=3"><img
+												src="./img/e.png" alt="coin">
 												<div class="coin-name">
-													EURUSD<span>Euro / U.S. Dollar</span>
+													俄罗斯卢布<span>卢布/每人民币</span>
 												</div></a></td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td><span class="text-success">+0.00225 </span></td>
-										<td><span class="text-success">+0.02% </span></td>
+										<td>9.1791</td>
+										<td>9.1791</td>
+										<td>9.1791</td>
+										<td>9.1791</td>
+										<td><span class="text-success">0 </span></td>
+										<td><span class="text-success">0.00% </span></td>
 										<td class="text-center"><span class="time-box"><i
-												class="far fa-clock"></i>09:21:48</span></td>
+												class="far fa-clock"></i>${timeminutes}</span></td>
 									</tr>
 									<tr>
-										<td class="coin-box quotes"><a href="Live-charts.html#"><img
-												src="./img/crypto-exchange2.png" alt="coin">
+										<td class="coin-box quotes"><a href="charts?f=4"><img
+												src="./img/han.png" alt="coin">
 												<div class="coin-name">
-													GBPUSD<span>Euro / U.S. Dollar</span>
+													韩元<span>韩元/每美元</span>
 												</div></a></td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td><span class="text-danger">+0.00475 </span></td>
-										<td><span class="text-danger">+0.47% </span></td>
+										<td>1309.4600</td>
+										<td>1309.4600</td>
+										<td>1309.4600</td>
+										<td>1309.4600</td>
+										<td><span class="text-danger">0</span></td>
+										<td><span class="text-danger">0.00% </span></td>
 										<td class="text-center"><span class="time-box"><i
-												class="far fa-clock"></i>09:21:48</span></td>
+												class="far fa-clock"></i>${timeminutes}</span></td>
 									</tr>
 									<tr>
-										<td class="coin-box quotes"><a href="Live-charts.html"><img
-												src="./img/crypto-exchange1.png" alt="coin">
+										<td class="coin-box quotes"><a href="charts?f=5"><img
+												src="./img/tai.png" alt="coin">
 												<div class="coin-name">
-													EURUSD<span>Euro / U.S. Dollar</span>
+													泰铢<span>泰铢/每人民币</span>
 												</div></a></td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td><span class="text-success">+0.00225 </span></td>
-										<td><span class="text-success">+0.02% </span></td>
+										<td>4.9971</td>
+										<td>5.0022</td>
+										<td>4.9971</td>
+										<td>5.0022</td>
+										<td><span class="text-success">-0.0051 </span></td>
+										<td><span class="text-success">-0.1020% </span></td>
 										<td class="text-center"><span class="time-box"><i
-												class="far fa-clock"></i>09:21:48</span></td>
+												class="far fa-clock"></i>${timeminutes}</span></td>
 									</tr>
 									<tr>
-										<td class="coin-box quotes"><a href="Live-charts.html#"><img
-												src="./img/crypto-exchange2.png" alt="coin">
+										<td class="coin-box quotes"><a href="charts?f=6"><img
+												src="./img/ri.png" alt="coin">
 												<div class="coin-name">
-													GBPUSD<span>Euro / U.S. Dollar</span>
+													日元<span>日元/每人民币</span>
 												</div></a></td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td><span class="text-success">+0.00225 </span></td>
-										<td><span class="text-success">+0.02% </span></td>
+										<td>19.5330</td>
+										<td>19.7030</td>
+										<td>19.5330</td>
+										<td>19.7100</td>
+										<td><span class="text-success">+0.177 </span></td>
+										<td><span class="text-success">+0.9062% </span></td>
 										<td class="text-center"><span class="time-box"><i
-												class="far fa-clock"></i>09:21:48</span></td>
+												class="far fa-clock"></i>${timeminutes}</span></td>
 									</tr>
 									<tr>
-										<td class="coin-box quotes"><a href="Live-charts.html"><img
-												src="./img/crypto-exchange1.png" alt="coin">
+										<td class="coin-box quotes"><a href="charts?f=7"><img
+												src="./img/gang.png" alt="coin">
 												<div class="coin-name">
-													EURUSD<span>Euro / U.S. Dollar</span>
+													港元<span>港元/每人民币</span>
 												</div></a></td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td><span class="text-danger">+0.00475 </span></td>
-										<td><span class="text-danger">+0.47% </span></td>
+										<td>0.8951</td>
+										<td>0.8951</td>
+										<td>0.8951</td>
+										<td>0.8951</td>
+										<td><span class="text-danger">0 </span></td>
+										<td><span class="text-danger">0.00% </span></td>
 										<td class="text-center"><span class="time-box"><i
-												class="far fa-clock"></i>09:21:48</span></td>
+												class="far fa-clock"></i>${timeminutes}</span></td>
 									</tr>
 									<tr>
-										<td class="coin-box quotes"><a href="Live-charts.html#"><img
-												src="./img/crypto-exchange2.png" alt="coin">
+										<td class="coin-box quotes"><a href="charts?f=8"><img
+												src="./img/zhongtai.png" alt="coin">
 												<div class="coin-name">
-													GBPUSD<span>Euro / U.S. Dollar</span>
+													新台币<span>新台币/每人民币</span>
 												</div></a></td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td><span class="text-success">+0.00225 </span></td>
-										<td><span class="text-success">+0.02% </span></td>
+										<td>0.2256</td>
+										<td>0.2256</td>
+										<td>0.2256</td>
+										<td>0.2256</td>
+										<td><span class="text-success">0 </span></td>
+										<td><span class="text-success">0.00% </span></td>
 										<td class="text-center"><span class="time-box"><i
-												class="far fa-clock"></i>09:21:48</span></td>
+												class="far fa-clock"></i>${timeminutes}</span></td>
 									</tr>
 									<tr>
-										<td class="coin-box quotes"><a href="Live-charts.html"><img
-												src="./img/crypto-exchange1.png" alt="coin">
+										<td class="coin-box quotes"><a href="charts?f=9"><img
+												src="./img/mo.png" alt="coin">
 												<div class="coin-name">
-													EURUSD<span>Euro / U.S. Dollar</span>
+													墨西哥比索<span>墨西哥比索/每人民币</span>
 												</div></a></td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td><span class="text-danger">+0.00475 </span></td>
-										<td><span class="text-danger">+0.47% </span></td>
+										<td>0.3525</td>
+										<td>0.3526</td>
+										<td>0.3520</td>
+										<td>0.3532</td>
+										<td><span class="text-danger">+0.0011 </span></td>
+										<td><span class="text-danger">+0.3259% </span></td>
 										<td class="text-center"><span class="time-box"><i
-												class="far fa-clock"></i>09:21:48</span></td>
+												class="far fa-clock"></i>${timeminutes}</span></td>
 									</tr>
 									<tr>
-										<td class="coin-box quotes"><a href="Live-charts.html"><img
-												src="./img/crypto-exchange1.png" alt="coin">
+										<td class="coin-box quotes"><a href="charts?f=10"><img
+												src="./img/xin.png" alt="coin">
 												<div class="coin-name">
-													GBPUSD<span>Euro / U.S. Dollar</span>
+													新加坡元<span>新加坡元/每人民币</span>
 												</div></a></td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td>1.04530</td>
-										<td><span class="text-success">+0.00225 </span></td>
-										<td><span class="text-success">+0.02% </span></td>
+										<td>5.1351</td>
+										<td>5.1310</td>
+										<td>5.1298</td>
+										<td>5.1421</td>
+										<td><span class="text-success">+0.0123 </span></td>
+										<td><span class="text-success">+0.2395% </span></td>
 										<td class="text-center"><span class="time-box"><i
-												class="far fa-clock"></i>09:21:48</span></td>
+												class="far fa-clock"></i>${timeminutes}</span></td>
 									</tr>
 								</tbody>
 							</table>

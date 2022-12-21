@@ -36,7 +36,7 @@
 													href="Log.jsp">登录</a></li>
 												<img src="./img/user.png" alt="用户">
 												<li class="nav-item "><a class="nav-link"
-													href="#">用户名称</a></li>
+													href="introServlet?user=${user}">用户名称 ${user} </a></li>
 											</ul>
 										</div>
 									</nav>

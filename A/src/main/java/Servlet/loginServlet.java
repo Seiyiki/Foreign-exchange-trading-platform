@@ -1,9 +1,6 @@
 package Servlet;
 
 import java.io.IOException;
-import java.util.Date;
-import java.text.SimpleDateFormat;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class MktServlet
+ * Servlet implementation class loginServlet
  */
-@WebServlet("/MktServlet")
-public class MktServlet extends HttpServlet {
+@WebServlet("/loginServlet")
+public class loginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public MktServlet() {
+    public loginServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -30,17 +27,14 @@ public class MktServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		request.setCharacterEncoding("utf-8");
+		response.setCharacterEncoding("utf-8");
+		System.out.println("logining");
+		String user = request.getParameter("user");
+		System.out.println(user);
+		request.getSession().setAttribute("user", user);
+		request.getRequestDispatcher("Top.jsp").forward(request, response);
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
-		Date now = new Date();
-		String time = sdf.format(now);
-		String timeday= time.substring(0,4)+"Äê"+time.substring(4, 6)+"ÔÂ"+time.substring(6, 8)+"ÈÕ";
-		String timeString = time.substring(8,10)+":"+time.substring(10,12)+":"+time.substring(12,14);
-		
-		request.getSession().setAttribute("timeday", timeday);
-		request.getSession().setAttribute("timeminutes", timeString);
-		
-		request.getRequestDispatcher("Mkt.jsp").forward(request, response);
 	}
 
 	/**
